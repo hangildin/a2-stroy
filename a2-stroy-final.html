@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>А2 Строй — ремонтно-строительные работы в Казани</title>
+  <meta name="description" content="Ремонт под ключ, фасады, металлоконструкции, монтаж и промышленный альпинизм в Казани и Татарстане.">
+  <style>
+    :root{
+      --bg:#f5f5f2;
+      --card:#ffffff;
+      --text:#20242a;
+      --muted:#6d737c;
+      --line:#e3e5e8;
+      --dark:#202a35;
+      --accent:#a7875b;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.45}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px,calc(100% - 28px));margin:auto}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+    .nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+    .brand{font-size:24px;font-weight:800}
+    .top-phone{font-size:18px;font-weight:800}
+    .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:10px;background:var(--dark);color:#fff;font-weight:800}
+    .hero{color:#fff;padding:82px 0 72px;background:linear-gradient(rgba(25,33,42,.72),rgba(25,33,42,.72)),url("https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1800&auto=format&fit=crop") center/cover}
+    .hero-inner{max-width:840px}
+    .hero-label{font-size:13px;font-weight:800;letter-spacing:2px;color:#e7dac6}
+    h1{font-size:clamp(42px,6vw,68px);line-height:1.02;margin:16px 0 18px;letter-spacing:-1.5px}
+    .hero-sub{font-size:clamp(21px,3vw,30px);font-weight:700;margin-bottom:18px}
+    .hero-meta{font-size:17px;color:#e5e7eb}
+    .hero-phone{display:block;font-size:clamp(30px,5vw,48px);font-weight:900;margin:24px 0}
+    section{padding:68px 0}
+    .section-title{font-size:clamp(32px,4vw,46px);margin:0 0 12px;letter-spacing:-1px}
+    .section-text{color:var(--muted);font-size:18px;margin:0 0 28px}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .service{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;min-height:112px;display:flex;flex-direction:column;justify-content:flex-end}
+    .service strong{font-size:19px}
+    .service span{margin-top:8px;color:var(--muted);font-size:14px}
+    .problems{background:#fff}
+    .problem-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .problem{padding:18px 20px;border:1px solid var(--line);border-radius:14px;background:#fafafa;font-weight:700}
+    .trust{background:var(--dark);color:#fff}
+    .trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .trust-item{padding:22px;border:1px solid rgba(255,255,255,.12);border-radius:14px;background:rgba(255,255,255,.05);font-weight:800}
+    .steps{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+    .step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;text-align:center;font-weight:800}
+    .step span{display:block;color:var(--accent);font-size:13px;margin-bottom:8px}
+    footer{padding:58px 0;background:#111820;color:#fff;text-align:center}
+    footer h2{font-size:clamp(34px,5vw,52px);margin:0 0 18px}
+    footer .phone{display:block;font-size:clamp(30px,5vw,48px);font-weight:900;margin-bottom:20px}
+    footer p{color:#cbd5e1}
+    .floating-call{position:fixed;right:16px;bottom:16px;z-index:30;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:var(--dark);color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.25);font-size:24px}
+    @media(max-width:900px){.services{grid-template-columns:repeat(2,1fr)}.trust-grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:620px){.top-phone{display:none}.hero{padding:58px 0 52px}section{padding:54px 0}.services,.problem-grid,.trust-grid,.steps{grid-template-columns:1fr}.btn{width:100%}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">А2 Строй</div>
+    <a class="top-phone" href="tel:+79934040001">+7 (993) 404-00-01</a>
+    <a class="btn" href="tel:+79934040001">Позвонить</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-label">КАЗАНЬ • РЕСПУБЛИКА ТАТАРСТАН</div>
+      <h1>Ремонтно-строительные работы</h1>
+      <div class="hero-sub">Ремонт • Фасады • Металлоконструкции • Монтаж • Промышленный альпинизм</div>
+      <div class="hero-meta">Работаем по договору • Смета до начала работ • Один ответственный</div>
+      <a class="hero-phone" href="tel:+79934040001">+7 (993) 404-00-01</a>
+      <a class="btn" href="tel:+79934040001">Позвонить</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Чем можем помочь</h2>
+      <p class="section-text">Основные виды работ.</p>
+      <div class="services">
+        <div class="service"><strong>Ремонт под ключ</strong><span>Квартиры, дома, офисы и коммерческие помещения</span></div>
+        <div class="service"><strong>Вентилируемые фасады</strong><span>Клинкер, композит, керамогранит, фиброцементные панели</span></div>
+        <div class="service"><strong>Металлоконструкции</strong><span>Каркасы, лестницы, навесы, ограждения, сварочные работы</span></div>
+        <div class="service"><strong>Витражи и козырьки</strong><span>Стеклянные и алюминиевые конструкции</span></div>
+        <div class="service"><strong>Промышленный альпинизм</strong><span>Мойка, покраска, герметизация, высотный монтаж</span></div>
+        <div class="service"><strong>Монтаж освещения</strong><span>Внутреннее, наружное и архитектурное освещение</span></div>
+        <div class="service"><strong>Слаботочные системы</strong><span>Кабельные сети, видеонаблюдение, контроль доступа</span></div>
+        <div class="service"><strong>Монтаж и демонтаж</strong><span>Отливы, конструкции, оборудование</span></div>
+        <div class="service"><strong>Мебель</strong><span>Сборка, монтаж и изготовление</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="problems">
+    <div class="container">
+      <h2 class="section-title">Знакомая ситуация?</h2>
+      <div class="problem-grid">
+        <div class="problem">Подрядчик пропал после аванса</div>
+        <div class="problem">Сроки постоянно переносятся</div>
+        <div class="problem">Стоимость растёт по ходу работ</div>
+        <div class="problem">Нет понятной сметы</div>
+        <div class="problem">Никто не отвечает за объект</div>
+        <div class="problem">Работы приходится переделывать</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust">
+    <div class="container">
+      <h2 class="section-title">Почему выбирают нас</h2>
+      <div class="trust-grid">
+        <div class="trust-item">Договор</div>
+        <div class="trust-item">Смета до начала работ</div>
+        <div class="trust-item">Один ответственный</div>
+        <div class="trust-item">Фото- и видеоотчёт</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Как работаем</h2>
+      <div class="steps">
+        <div class="step"><span>01</span>Звонок</div>
+        <div class="step"><span>02</span>Выезд</div>
+        <div class="step"><span>03</span>Смета</div>
+        <div class="step"><span>04</span>Договор</div>
+        <div class="step"><span>05</span>Работы</div>
+        <div class="step"><span>06</span>Сдача</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <h2>Обсудим ваш объект</h2>
+    <a class="phone" href="tel:+79934040001">+7 (993) 404-00-01</a>
+    <a class="btn" href="tel:+79934040001">Позвонить</a>
+    <p>Казань • Республика Татарстан</p>
+  </div>
+</footer>
+
+<a class="floating-call" href="tel:+79934040001" aria-label="Позвонить">☎</a>
+</body>
+</html>
